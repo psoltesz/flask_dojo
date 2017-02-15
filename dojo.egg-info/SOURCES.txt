@@ -1,0 +1,16 @@
+MANIFEST.in
+dojo/__init__.py
+dojo/connectdatabase.py
+dojo/dojo.py
+dojo/models.py
+dojo.egg-info/PKG-INFO
+dojo.egg-info/SOURCES.txt
+dojo.egg-info/dependency_links.txt
+dojo.egg-info/requires.txt
+dojo.egg-info/top_level.txt
+dojo/static/pen.png
+dojo/static/style.css
+dojo/static/trashcan.png
+dojo/templates/form.html
+dojo/templates/index.html
+dojo/templates/list.html

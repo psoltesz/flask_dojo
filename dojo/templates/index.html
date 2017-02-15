@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Super-Sprinter 3000</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=mainpage>
+    <h1>Super-Sprinter 3000</h1>
+    <br>
+    <h5>This is the new Super-Sprinter 3000 interface for team B1tz, pls.</h5>
+    <br>
+    <center>
+        <h3><a href="{{ url_for('get_new_story') }}">Add a new user story</a></h3>
+    </center><br> {% block body %} {% endblock %}
+</div>
+{% for message in get_flashed_messages() %}
+<div class=flash>{{ message }}</div>
+{% endfor %}

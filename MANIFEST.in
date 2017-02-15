@@ -1,0 +1,4 @@
+graft dojo/templates
+graft dojo/static
+include dojo/connectdatabase.py
+include dojo/models.py
